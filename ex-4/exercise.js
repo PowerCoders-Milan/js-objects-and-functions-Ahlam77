@@ -5,11 +5,13 @@
 
 var dob = prompt("Please anter you birthday")
 
-function ageCalculator() {
+
+
+function getAge() {
     var realDate = new Date();
     return (realDate.getFullYear()-dob)
 }
 
 
-window.alert(ageCalculator())
+window.alert(getAge())
 
